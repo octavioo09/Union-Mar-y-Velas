@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 6914c5361052171418fde7af1d06af37
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - inventario: {fileID: 11400000, guid: 3f065557a161732418104df3950873b8, type: 2}
+  - citystats: {fileID: 11400000, guid: 393cd453efe61344d98e639a6d06e209, type: 2}
+  - rowComprar: {fileID: 7277107443730755510, guid: 6acf675ac2858704e8d83cc35eba8086,
+      type: 3}
+  - rowVender: {fileID: 1302119819742906319, guid: 3f5d1535e8d2dbc42a32c4c1822bdf08,
+      type: 3}
+  - scroll: {instanceID: 0}
+  - mercadoView: {fileID: 2806046703449133231, guid: 09dcac8bde6c08140b8c4b822d9d9a21,
+      type: 3}
+  - comercioView: {fileID: 7741310624186789529, guid: 436af2442257cef4daabdb010a50eae0,
+      type: 3}
+  - closeButton: {fileID: 5027195247935925264, guid: f449265ce80d5de4195ab8b7bcf45959,
+      type: 3}
+  - modalView: {fileID: 5692535414687535246, guid: 006a69eca5416bb448268b71f0916565,
+      type: 3}
+  - hooverView: {fileID: 8128661670124565360, guid: 464c49335c0efca4f9f03e4a71055e84,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 4a52b0952fbc1cc4fb97b198ef3c09db
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - inventario: {instanceID: 0}
+  - rowComprar: {instanceID: 0}
+  - scroll: {instanceID: 0}
+  - posadaView: {fileID: 8796588879747224893, guid: 0e7232c2e3472344aa26026e1cc472ff,
+      type: 3}
+  - marinerosView: {instanceID: 0}
+  - soldadosView: {fileID: 1016088466789569570, guid: 9eacf2326cd4e1f498bce0efbd6a6d9c,
+      type: 3}
+  - comercioView: {fileID: 2806046703449133231, guid: 09dcac8bde6c08140b8c4b822d9d9a21,
+      type: 3}
+  - closeButton: {fileID: 5175834438284193167, guid: 33ec01e9885bc30489dcc22b71989dda,
+      type: 3}
+  - hooverView: {fileID: 8128661670124565360, guid: 464c49335c0efca4f9f03e4a71055e84,
+      type: 3}
+  - modalView: {fileID: 5692535414687535246, guid: 006a69eca5416bb448268b71f0916565,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

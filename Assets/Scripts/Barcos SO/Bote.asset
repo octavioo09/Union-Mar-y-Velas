@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9724d92ec1c205b4e9fc1f2863ad4182, type: 3}
+  m_Name: Bote
+  m_EditorClassIdentifier: 
+  artilleria: 0
+  soldados: 0
+  tripulantes: 15
+  velocidad1: 5
+  velocidad2: 0
+  carcasa: {fileID: 919132149155446097, guid: 9fbee93d33b7fab489d0075f7463b42d, type: 3}
+  descripcion: Botesico jaja

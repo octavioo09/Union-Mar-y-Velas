@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 86f5aead491b01d46a230149cf0c9de1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - product: {instanceID: 0}
+  - barco: {instanceID: 0}
+  - button: {instanceID: 0}
+  - comercio: {instanceID: 0}
+  - taberna: {instanceID: 0}
+  - hooverView: {fileID: 8128661670124565360, guid: 464c49335c0efca4f9f03e4a71055e84,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

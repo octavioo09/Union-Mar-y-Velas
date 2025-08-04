@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e68c2c15e05b6f2438b097d2620118b8, type: 3}
+  m_Name: Productos_Mercado
+  m_EditorClassIdentifier: 
+  inventoryList:
+  - itemInventory: {fileID: 11400000, guid: a0aa2aa4a6de4214fa201b16c9a1f1ad, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: a7dd00dd89ccb434cbe8ed36e3f0ab4a, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 6d7506ec2f1d35c40970525917073abd, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 6dd7b62e032c55d4db40446e75e05374, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: dec026509eb1e6647ad880c38ea56a28, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 6eef9c0b2f363fd499f0cb1be0328f80, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: a530e95b57f44d6408b76de50121283d, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 3878779f8fa527b478f4a83e040ad4fd, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 89a983e0188876747b83c7034d9a65dc, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 466d392212a85fe468db1c4dd0a243c7, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 618024d9231b1aa4dae929e9b75cb9cc, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 24bbd1d0d8526f343a3dda5553ff23a7, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 5a0e1414ba4784043bb45956a8d17966, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: f91aa2240c865ec46a3b0f3d580fe58c, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 01288cf47ba3f0e468a7aa480435af1a, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 93547681c3971c64a8569b65ba5d7239, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 97e945179b746f04393fcd0dd4396039, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 454a0431ae343224987ae17196ac9630, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: e1bed62bd943b4446ad9db5011230451, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 4468aca42c420354e8ddb225d756d1b7, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 82b1ed16b4d23014f8e0d7d6655c5d10, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: a5db54423afbab64185baf51cde9ce78, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 44dd275eb0f75034ebd87e40d7a1ef4d, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 089a6f84029708b4c8ff5ce1d7da0b1a, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: c42ec2106e08fd9449e98ef98f05d755, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 2fe21eabbafd8d545b69dbf169286e6a, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 2757ac6c541162b40846be7bf84138ce, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 8a21bcd08e2533a4e9517c507a360f91, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: d4d017a3846925c4694103d2492f2d43, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 9a37cfeb898526a4c94a1b54466ec991, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 6ada673c3e8147d4c9d0aca18b16621d, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: c20003ff9acddfe4a8ed3a0c09917d3b, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 450876eec5b878e48920a57f244c4dbc, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 9a37cfeb898526a4c94a1b54466ec991, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: dd6a8bbb567d8814e8e8a252acafff31, type: 2}
+    precio: 0
+    stackSize: 1000
+  - itemInventory: {fileID: 11400000, guid: 09486aab28296d3479081f10cfebe3a1, type: 2}
+    precio: 0
+    stackSize: 1000

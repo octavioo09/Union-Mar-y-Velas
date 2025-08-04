@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e68c2c15e05b6f2438b097d2620118b8, type: 3}
+  m_Name: Taberna_San Juan de Puerto Rico
+  m_EditorClassIdentifier: 
+  currency: {fileID: 11400000, guid: 61f576d229aae784993479d622cb5c5d, type: 2}
+  inventoryList:
+  - itemInventory: {fileID: 11400000, guid: 57542412ebfe5b646ac71fddb2c4736c, type: 2}
+    precio: 0
+    stackSize: 100
+  - itemInventory: {fileID: 11400000, guid: 6feb853471c307644a172d4436224ce5, type: 2}
+    precio: 0
+    stackSize: 100
+  - itemInventory: {fileID: 11400000, guid: f6a2553a0f149ca46ac7a4b22eb5dae0, type: 2}
+    precio: 0
+    stackSize: 500
+  - itemInventory: {fileID: 11400000, guid: bf2323788d25942458db3b4a1b77c184, type: 2}
+    precio: 0
+    stackSize: 200
+  - itemInventory: {fileID: 11400000, guid: 221a09d734cbcf5438c95af9de0799d3, type: 2}
+    precio: 0
+    stackSize: 250
+  - itemInventory: {fileID: 11400000, guid: bbfb4bfb367d7654e823f758544cf17a, type: 2}
+    precio: 0
+    stackSize: 200
+  - itemInventory: {fileID: 11400000, guid: d3411ec6bfe1f4f4ebb9d8f8c2939e52, type: 2}
+    precio: 0
+    stackSize: 200
+  - itemInventory: {fileID: 11400000, guid: a188a00bacc350040ba33f3c3124abec, type: 2}
+    precio: 0
+    stackSize: 250

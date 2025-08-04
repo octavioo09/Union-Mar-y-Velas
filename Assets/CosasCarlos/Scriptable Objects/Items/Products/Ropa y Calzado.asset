@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd64f51cf9b0c734cacb5e8bf7d56742, type: 3}
+  m_Name: Ropa y Calzado
+  m_EditorClassIdentifier: 
+  ItemName: Ropa y calzado
+  precio: 22.06
+  ItemDescription: 
+  ID: 40
+  tipo1: 3
+  tipo2: 0
+  existencias: 0
+  peso: 0
+  soporte: 0
+  cantidad: 24
+  ItemsProducibles: []
+  itemsNecesarios: []

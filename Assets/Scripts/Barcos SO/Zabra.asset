@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9724d92ec1c205b4e9fc1f2863ad4182, type: 3}
+  m_Name: Zabra
+  m_EditorClassIdentifier: 
+  artilleria: 0
+  soldados: 1
+  tripulantes: 1
+  velocidad1: 0
+  velocidad2: 20
+  velocidadMax: 10
+  carcasa: {fileID: 919132149155446097, guid: 5308a14bd931dc2409afd69a52a8f92c, type: 3}
+  vida: 150
+  vidaTotal: 150
+  fuerza: 0
+  perdidasTripulantes: 0.15
+  perdidasSoldados: 0.08
+  descripcion: 
+  capacity: 0
+  activo: 0

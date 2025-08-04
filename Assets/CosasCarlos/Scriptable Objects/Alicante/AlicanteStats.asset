@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a400a4d8fa67ef3419cfba67fdf9af78, type: 3}
+  m_Name: AlicanteStats
+  m_EditorClassIdentifier: 
+  cityStats:
+  - producto: {fileID: 11400000, guid: ebcc0a7b017842d4b93b9747c6233fb1, type: 2}
+    existencias: 0
+    demanda: 2
+    produccion: 0
+  - producto: {fileID: 11400000, guid: 96aa71a29c4b6c74ba87a230afde1c96, type: 2}
+    existencias: 2
+    demanda: 2
+    produccion: 2
+  - producto: {fileID: 11400000, guid: d4b4e1331d4c2a7449646a4a28ab1aff, type: 2}
+    existencias: 2
+    demanda: 3
+    produccion: 2
+  - producto: {fileID: 11400000, guid: 636bf748b04be304fa8e4ac3db167e4d, type: 2}
+    existencias: 2
+    demanda: 1
+    produccion: 2
+  - producto: {fileID: 11400000, guid: d550c80ab21a17246bf15c594584e9af, type: 2}
+    existencias: 2
+    demanda: 1
+    produccion: 0
+  - producto: {fileID: 11400000, guid: 0e5f6ed4f1ca7c544b47de61d35b82c5, type: 2}
+    existencias: 3
+    demanda: 3
+    produccion: 1
+  - producto: {fileID: 11400000, guid: 582493d5f7dde2145a371f3cfbc7bbf6, type: 2}
+    existencias: 3
+    demanda: 3
+    produccion: 2
+  - producto: {fileID: 11400000, guid: f568cef6480e33c4fb751992e288c5cc, type: 2}
+    existencias: 4
+    demanda: 0
+    produccion: 4
+  - producto: {fileID: 11400000, guid: 5964f523d8ed6054e8835fe86703e0e9, type: 2}
+    existencias: 4
+    demanda: 4
+    produccion: 2
+  - producto: {fileID: 11400000, guid: eff966ca71ea90a49a78a29081820f27, type: 2}
+    existencias: 1
+    demanda: 0
+    produccion: 0
+  - producto: {fileID: 11400000, guid: 527e434342e190f48b64d7f797e5d1a5, type: 2}
+    existencias: 1
+    demanda: 0
+    produccion: 0
+  - producto: {fileID: 11400000, guid: 5b9a4c528b8ac764494db27eb8fc5177, type: 2}
+    existencias: 2
+    demanda: 3
+    produccion: 3
+  - producto: {fileID: 11400000, guid: 51dbc7de5d2b85644a832768c46bab8b, type: 2}
+    existencias: 1
+    demanda: 1
+    produccion: 0
+  - producto: {fileID: 11400000, guid: d612e16064848134a84e1dea8d9efa9c, type: 2}
+    existencias: 3
+    demanda: 3
+    produccion: 2
+  - producto: {fileID: 11400000, guid: e7c05b713829f654e94f9521d474a1b4, type: 2}
+    existencias: 4
+    demanda: 1
+    produccion: 1
+  - producto: {fileID: 11400000, guid: d33f4f7c3f250ff418e1bd0578d1eed1, type: 2}
+    existencias: 3
+    demanda: 1
+    produccion: 2
+  - producto: {fileID: 11400000, guid: 4b65f9b70f798b641abfa481fea1be07, type: 2}
+    existencias: 3
+    demanda: 0
+    produccion: 0
+  - producto: {fileID: 11400000, guid: 7543bd69a9585a441b6f8fcc3f552930, type: 2}
+    existencias: 0
+    demanda: 1
+    produccion: 0
+  - producto: {fileID: 11400000, guid: 0baf3f59b69ea044981f27ab07f57b61, type: 2}
+    existencias: 0
+    demanda: 0
+    produccion: 0
+  - producto: {fileID: 11400000, guid: e4ac8af3372b4ac43924de9ce1a91d84, type: 2}
+    existencias: 2
+    demanda: 2
+    produccion: 3
+  - producto: {fileID: 11400000, guid: d1113db5a956f4e4882de9424d617364, type: 2}
+    existencias: 2
+    demanda: 2
+    produccion: 2
+  - producto: {fileID: 11400000, guid: 111e02719839d4f41ab04425be6f7775, type: 2}
+    existencias: 2
+    demanda: 3
+    produccion: 1
+  - producto: {fileID: 11400000, guid: e4f62451b1a79654abe2d38f8da15021, type: 2}
+    existencias: 3
+    demanda: 4
+    produccion: 0
+  - producto: {fileID: 11400000, guid: 0d1dcc51cb54aad47806a00b6d34c6c6, type: 2}
+    existencias: 1
+    demanda: 1
+    produccion: 0
+  - producto: {fileID: 11400000, guid: 064677b9d3f401843afae7b60e347069, type: 2}
+    existencias: 2
+    demanda: 1
+    produccion: 0
+  - producto: {fileID: 11400000, guid: f5ce9a7524edff847a7714e0d3174a59, type: 2}
+    existencias: 3
+    demanda: 4
+    produccion: 0
+  - producto: {fileID: 11400000, guid: 344d890db38dfe14096b72ff41b13212, type: 2}
+    existencias: 2
+    demanda: 2
+    produccion: 3
+  - producto: {fileID: 11400000, guid: d3fa0e459bc53964183e2f0325054fee, type: 2}
+    existencias: 3
+    demanda: 2
+    produccion: 0
+  - producto: {fileID: 11400000, guid: 6a1e67bcbc2a70b478ae079360e13a2d, type: 2}
+    existencias: 2
+    demanda: 2
+    produccion: 2
+  - producto: {fileID: 11400000, guid: d2b4ed70509737a43bb26815369ac8be, type: 2}
+    existencias: 2
+    demanda: 3
+    produccion: 1
+  - producto: {fileID: 11400000, guid: 9ed47be6f7c29864eb60e5efdf0b0576, type: 2}
+    existencias: 2
+    demanda: 2
+    produccion: 2
+  - producto: {fileID: 11400000, guid: 1c2697b5184052c4ab489a772f8454d4, type: 2}
+    existencias: 4
+    demanda: 4
+    produccion: 3
+  - producto: {fileID: 11400000, guid: b7e2d9e1ea9e08f418b5d620fa1fcbc9, type: 2}
+    existencias: 2
+    demanda: 3
+    produccion: 2
+  - producto: {fileID: 11400000, guid: 51fc890358793a54393d3a10ebd33b11, type: 2}
+    existencias: 2
+    demanda: 2
+    produccion: 2
+  - producto: {fileID: 11400000, guid: 3fc9c0c1390259544a60a5d266b4c02f, type: 2}
+    existencias: 3
+    demanda: 3
+    produccion: 3
+  - producto: {fileID: 11400000, guid: 78ff92dd97951fd458eb830138a98358, type: 2}
+    existencias: 4
+    demanda: 4
+    produccion: 4
+  - producto: {fileID: 11400000, guid: aefdc1a13b32a6c47bd55a88e02f5fa7, type: 2}
+    existencias: 1
+    demanda: 1
+    produccion: 1
+  - producto: {fileID: 11400000, guid: 53e5a3deda491e74b95698a1c94925c8, type: 2}
+    existencias: 1
+    demanda: 1
+    produccion: 1
+  - producto: {fileID: 11400000, guid: fdefb36656d4af042bd74b739af375be, type: 2}
+    existencias: 3
+    demanda: 3
+    produccion: 1
+  - producto: {fileID: 11400000, guid: ec45e515f7b365047aa9f66661e65a6f, type: 2}
+    existencias: 3
+    demanda: 3
+    produccion: 3
+  - producto: {fileID: 11400000, guid: e15b5b51ae175984c9edbfb2c9c1acfb, type: 2}
+    existencias: 3
+    demanda: 3
+    produccion: 3
+  - producto: {fileID: 11400000, guid: 9784bdb43e1347f48ac31ce63a900222, type: 2}
+    existencias: 3
+    demanda: 3
+    produccion: 3
+  - producto: {fileID: 11400000, guid: 75b464209e3adea408cf13eea2ee64d9, type: 2}
+    existencias: 1
+    demanda: 1
+    produccion: 0
+  - producto: {fileID: 11400000, guid: e32a8f2ca2efdfc4990e46dbfb2530f8, type: 2}
+    existencias: 3
+    demanda: 3
+    produccion: 3
+  - producto: {fileID: 11400000, guid: 3534634ec6065094b89d1860ebbe87e3, type: 2}
+    existencias: 2
+    demanda: 3
+    produccion: 0
+  - producto: {fileID: 11400000, guid: 4db759dcb87099b479319230b63dff10, type: 2}
+    existencias: 0
+    demanda: 0
+    produccion: 0
+  - producto: {fileID: 11400000, guid: 9e12dce4028a78349b7449e7826c2a59, type: 2}
+    existencias: 0
+    demanda: 1
+    produccion: 0
+  - producto: {fileID: 11400000, guid: 31a823e9f16d06348b1bf311f78a3aa6, type: 2}
+    existencias: 3
+    demanda: 3
+    produccion: 3
+  - producto: {fileID: 11400000, guid: 27c70940d8abb76419b534f4b272a6c0, type: 2}
+    existencias: 2
+    demanda: 2
+    produccion: 2
+  - producto: {fileID: 11400000, guid: ebc4ab7550b5b794897bd1ca919495cc, type: 2}
+    existencias: 2
+    demanda: 2
+    produccion: 2
+  - producto: {fileID: 11400000, guid: 68c9acbb830fd444fa08923e98434a0b, type: 2}
+    existencias: 1
+    demanda: 1
+    produccion: 0
+  - producto: {fileID: 11400000, guid: f1cbc7ab859a0c74eb335b3ef9161947, type: 2}
+    existencias: 1
+    demanda: 1
+    produccion: 0
+  - producto: {fileID: 11400000, guid: af5ffef12f812564cb845d7c5a5fc71e, type: 2}
+    existencias: 0
+    demanda: 2
+    produccion: 0
+  - producto: {fileID: 11400000, guid: 3ad39fcdce87d444da650cae27a1c354, type: 2}
+    existencias: 0
+    demanda: 0
+    produccion: 0
+  - producto: {fileID: 11400000, guid: c28866402d45386428ec056304f1c2b6, type: 2}
+    existencias: 2
+    demanda: 2
+    produccion: 2
+  - producto: {fileID: 11400000, guid: 9048c68a032533a43bc88f4a249cea54, type: 2}
+    existencias: 4
+    demanda: 4
+    produccion: 4
+  - producto: {fileID: 11400000, guid: e182a3ba7629f4e4180be077ef2d815a, type: 2}
+    existencias: 4
+    demanda: 4
+    produccion: 4
+  - producto: {fileID: 11400000, guid: 720a08b7fbcab5346a6157e2208c6acf, type: 2}
+    existencias: 0
+    demanda: 1
+    produccion: 0
+  - producto: {fileID: 11400000, guid: 38b35a81bc1e0ab4ebdfd784a73617a2, type: 2}
+    existencias: 0
+    demanda: 0
+    produccion: 0
+  - producto: {fileID: 11400000, guid: 7dfa89ce77218e441bf71f20d23991e5, type: 2}
+    existencias: 3
+    demanda: 4
+    produccion: 2
+  - producto: {fileID: 11400000, guid: 384d0658f030e0c49b15c25bc6c95196, type: 2}
+    existencias: 4
+    demanda: 4
+    produccion: 4

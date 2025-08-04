@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd64f51cf9b0c734cacb5e8bf7d56742, type: 3}
+  m_Name: Cerdo
+  m_EditorClassIdentifier: 
+  ItemName: Cerdo
+  precio: 6.1
+  ItemDescription: 
+  ID: 28
+  tipo1: 2
+  tipo2: 6
+  existencias: 0
+  peso: 0
+  soporte: 1
+  cantidad: 3
+  ItemsProducibles: []
+  itemsNecesarios: []

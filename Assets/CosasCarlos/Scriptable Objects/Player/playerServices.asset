@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 390c0badb51feef479c9d429b4a1dd3c, type: 3}
+  m_Name: playerServices
+  m_EditorClassIdentifier: 
+  inventoryList:
+  - itemInventory: {fileID: 11400000, guid: 68992998f9125a5428ade74b3aec2b1b, type: 2}
+    precio: 15
+    hasService: 1
+    expTime: 0
+  - itemInventory: {fileID: 11400000, guid: d0e777948c36a5e4f8d95eb6ffae2a1d, type: 2}
+    precio: 7.35
+    hasService: 1
+    expTime: 1
+  - itemInventory: {fileID: 11400000, guid: a7899e6a556563245aded4a7118dbda9, type: 2}
+    precio: 5.51
+    hasService: 1
+    expTime: 0
+  - itemInventory: {fileID: 11400000, guid: ed680076c68697b47be3b51c27fc74e5, type: 2}
+    precio: 9
+    hasService: 1
+    expTime: 0
+  - itemInventory: {fileID: 11400000, guid: 2959e3737c2d1df44bbff762f89b49d9, type: 2}
+    precio: 3
+    hasService: 1
+    expTime: 0
