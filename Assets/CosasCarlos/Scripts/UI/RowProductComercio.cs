@@ -14,7 +14,7 @@ public class RowProductComercio : MonoBehaviour, IPointerEnterHandler, IPointerE
     [SerializeField]
     CustomButton button;
     [HideInInspector]
-    public Comercio comercio;
+    public Mercado comercio;
     [HideInInspector]
     public Tabernas taberna;
     [HideInInspector]

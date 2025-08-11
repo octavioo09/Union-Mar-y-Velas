@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Player", menuName = "ScriptableObjects/Player")]
@@ -12,4 +14,5 @@ public class PlayerSO : ScriptableObject
     public Barcos barcoActivo;
     private List<CitySO> visitedCities;
     //private List<Barcos> flota;
+
 }

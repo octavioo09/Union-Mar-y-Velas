@@ -262,14 +262,14 @@ public class Puerto : Building
         {
             if(player.barcoActivo == true)
             {
-                player.barcoActivo.inventario = player.playerInventory;
+                //player.barcoActivo.inventario = player.playerInventory;
                 player.barcoActivo.activo=false;
                 Destroy(barcoPuerto.transform.GetChild(0).gameObject);
 
             }
             barcos.activo = true;
             player.barcoActivo = barcos;
-            player.playerInventory = barcos.inventario;
+            //player.playerInventory = barcos.inventario;
             GameObject barquito = Instantiate(player.barcoActivo.carcasa, barcoPuerto.transform.position, Quaternion.identity, barcoPuerto.transform);
             barquito.transform.localScale = new Vector3(3.14f, 3.14f, 3.14f);
             //barcoPuerto = player.barcoActivo.carcasa;

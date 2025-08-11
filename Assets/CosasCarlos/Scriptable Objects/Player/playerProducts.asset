@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e68c2c15e05b6f2438b097d2620118b8, type: 3}
+  m_Name: playerProducts
+  m_EditorClassIdentifier: 
+  inventoryList:
+  - itemInventory: {fileID: 11400000, guid: a0aa2aa4a6de4214fa201b16c9a1f1ad, type: 2}
+    precio: 11
+    stackSize: 24
+  - itemInventory: {fileID: 11400000, guid: a7dd00dd89ccb434cbe8ed36e3f0ab4a, type: 2}
+    precio: 1.47
+    stackSize: 8
+  - itemInventory: {fileID: 11400000, guid: 6d7506ec2f1d35c40970525917073abd, type: 2}
+    precio: 7.7
+    stackSize: 13
+  - itemInventory: {fileID: 11400000, guid: 0164b11c030e2974893624627840fac7, type: 2}
+    precio: 4.6
+    stackSize: 4
+  - itemInventory: {fileID: 11400000, guid: d6f1f38e0376aed4ab4bb9fe0dead3ee, type: 2}
+    precio: 8.82
+    stackSize: 54
+  - itemInventory: {fileID: 11400000, guid: fe16472a65e3b074f8663ce6065ba8e7, type: 2}
+    precio: 11.03
+    stackSize: 78
+  - itemInventory: {fileID: 11400000, guid: 6dd7b62e032c55d4db40446e75e05374, type: 2}
+    precio: 2.6
+    stackSize: 7
+  - itemInventory: {fileID: 11400000, guid: dec026509eb1e6647ad880c38ea56a28, type: 2}
+    precio: 11.03
+    stackSize: 7
+  - itemInventory: {fileID: 11400000, guid: 6eef9c0b2f363fd499f0cb1be0328f80, type: 2}
+    precio: 12.87
+    stackSize: 9

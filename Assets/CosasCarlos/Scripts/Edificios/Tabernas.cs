@@ -20,6 +20,7 @@ public class Tabernas : Building
 {
     [SerializeField]
     InventoryProductSO inventario;
+    InventoryProductSO personal;
     //[SerializeField]
     /*ublic currencySO currencyPlayer;*/
 
@@ -64,6 +65,7 @@ public class Tabernas : Building
         posadaButtons[2].onClick.AddListener(delegate { AccionComprar(); });
 
         ProductsSO soldado = AssetDatabase.LoadAssetAtPath<ProductsSO>("Assets/CosasCarlos/Scriptable Objects/Items/Products/Soldados.asset");
+        
         CustomButton[] soldadoButtons = soldadosView.GetComponentsInChildren<CustomButton>();
         soldadoButtons[0].onClick.AddListener(delegate { ComprarUno(soldado); });
         soldadoButtons[1].onClick.AddListener(delegate { ComprarCinco(soldado); });
@@ -77,6 +79,7 @@ public class Tabernas : Building
 
         licencia = AssetDatabase.LoadAssetAtPath<ServiceSO>("Assets/CosasCarlos/Scriptable Objects/Items/Servicios/Licencia_Taberna.asset");
         inventario = Instantiate(AssetDatabase.LoadAssetAtPath<InventoryProductSO>("Assets/CosasCarlos/Scriptable Objects/Inventarios/Productos_Taberna.asset"));
+        personal = Instantiate(AssetDatabase.LoadAssetAtPath<InventoryProductSO>("Assets/CosasCarlos/Scriptable Objects/Inventarios/Personal_Tabernas.asset"));
         modalView.GetComponentInChildren<CustomButton>().onClick.AddListener(delegate { closeModal(); });
 
 
@@ -127,6 +130,7 @@ public class Tabernas : Building
 
         posadaView.gameObject.SetActive(false);
         comercioView.gameObject.SetActive(true);
+        closeButton.gameObject.SetActive(true);
         SetupItemListComprarUI();
         layer = TabernasUI.Comprar;
     }
@@ -134,7 +138,8 @@ public class Tabernas : Building
     public void showTripulantes()
     {
         posadaView.gameObject.SetActive(false);
-        marinerosView.gameObject.SetActive(true) ;
+        marinerosView.gameObject.SetActive(true);
+        closeButton.gameObject.SetActive(true);
         layer = TabernasUI.Tripulacion;
     }
 
@@ -142,7 +147,8 @@ public class Tabernas : Building
     public void showSoldados()
     {
         posadaView.gameObject.SetActive(false);
-        soldadosView.gameObject.SetActive (true) ;
+        soldadosView.gameObject.SetActive (true);
+        closeButton.gameObject.SetActive(true);
         layer = TabernasUI.Soldados;
     }
 
@@ -180,13 +186,13 @@ public class Tabernas : Building
         {
             marinerosView.gameObject.SetActive(false);
             posadaView.gameObject.SetActive(true);
-            layer = TabernasUI.Tripulacion;
+            layer = TabernasUI.Tabernas;
         }
         else if (layer == TabernasUI.Soldados)
         {
             soldadosView.gameObject.SetActive(false);
             posadaView.gameObject.SetActive(true);
-            layer = TabernasUI.Soldados;
+            layer = TabernasUI.Tabernas;
         }
 
     }
@@ -227,7 +233,7 @@ public class Tabernas : Building
 
     public void ComprarUno(ProductsSO item)
     {
-        SerialProduct found = inventario.findItem(item);
+        SerialProduct found = personal.findItem(item);
 
         if (found != null)
         {
@@ -237,7 +243,7 @@ public class Tabernas : Building
             if (found.stackSize > 1 && player.playerCurrency.CurrencyQuantity >= price)
             {
                 player.playerInventory.Add(found.itemInventory);
-                inventario.Remove(item);
+                //inventario.Remove(item);
                 player.playerCurrency.CurrencyQuantity -= price;
             }
             else
@@ -258,7 +264,7 @@ public class Tabernas : Building
 
     public void ComprarCinco(ProductsSO item)
     {
-        SerialProduct found = inventario.findItem(item);
+        SerialProduct found = personal.findItem(item);
 
         if (found != null)
         {
@@ -268,7 +274,7 @@ public class Tabernas : Building
             if (found.stackSize >= 5 && player.playerCurrency.CurrencyQuantity >= (price*5))
             {
                 player.playerInventory.Add(found.itemInventory, 5);
-                inventario.Remove(item, 5);
+                //inventario.Remove(item, 5);
                 player.playerCurrency.CurrencyQuantity -= (price*5);
             }
             else
@@ -292,11 +298,11 @@ public class Tabernas : Building
         if (found != null)
         {
             CityStatsSO.Pair pair = citystats.GetPair(item);
-            float price = setPrecioVenta(pair);
+            float price = setPrecioCompra(pair);
             if (found.stackSize > 10 && player.playerCurrency.CurrencyQuantity >= (price * 10))
             {
                 player.playerInventory.Add(found.itemInventory, 10);
-                inventario.Remove(item, 10);
+                //inventario.Remove(item, 10);
                 player.playerCurrency.CurrencyQuantity -= (price * 10);
             }
             else

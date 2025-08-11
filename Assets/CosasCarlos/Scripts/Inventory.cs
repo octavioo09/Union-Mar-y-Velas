@@ -7,18 +7,11 @@ using static UnityEditor.Progress;
 [Serializable]
 public abstract class Inventory<SerialType, ItemType> : ScriptableObject where SerialType : InventoryItem<ItemType> where ItemType : Item
 {
-    //public currencySO currency;
 
     [SerializeField]
     public List<SerialType> inventoryList; /*= new List<SerialType>();*/ //por redundancia de tipos, ya que C# lo permite, se puede poner new(); ya que tanto a la izq como a der tenemos List<T>
 
-    void OnEnable()
-    {
-        if (inventoryList == null)
-        {
-            inventoryList = new List<SerialType>();
-        }
-    }
+    
 
     public abstract void Add(ItemType item);
     public abstract void Add(ItemType item, int quantity);

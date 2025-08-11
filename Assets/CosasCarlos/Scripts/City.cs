@@ -13,14 +13,14 @@ public class City : MonoBehaviour
     {
         CSVcityStats.FillCityStats();
         player = AssetDatabase.LoadAssetAtPath<PlayerSO>("Assets/CosasCarlos/Scriptable Objects/Player/myPlayerSO.asset");
-        if (player.barcoActivo && player.barcoActivo.inventario)
+        /*if (player.barcoActivo && player.barcoActivo.inventario)
         {
             player.playerInventory = player.barcoActivo.inventario;
         }
         else
         {
             player.playerInventory = ScriptableObject.CreateInstance<InventoryProductSO>();
-        }
+        }*/
 
     }
 

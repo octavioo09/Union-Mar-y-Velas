@@ -17,14 +17,6 @@ MonoBehaviour:
     precio: 15
     hasService: 1
     expTime: 0
-  - itemInventory: {fileID: 11400000, guid: d0e777948c36a5e4f8d95eb6ffae2a1d, type: 2}
-    precio: 7.35
-    hasService: 1
-    expTime: 1
-  - itemInventory: {fileID: 11400000, guid: a7899e6a556563245aded4a7118dbda9, type: 2}
-    precio: 5.51
-    hasService: 1
-    expTime: 0
   - itemInventory: {fileID: 11400000, guid: ed680076c68697b47be3b51c27fc74e5, type: 2}
     precio: 9
     hasService: 1
@@ -33,3 +25,11 @@ MonoBehaviour:
     precio: 3
     hasService: 1
     expTime: 0
+  - itemInventory: {fileID: 11400000, guid: e0ecb1f6c36510247a43c73450bd3d10, type: 2}
+    precio: 11.03
+    hasService: 1
+    expTime: 1
+  - itemInventory: {fileID: 11400000, guid: d0e777948c36a5e4f8d95eb6ffae2a1d, type: 2}
+    precio: 7.35
+    hasService: 1
+    expTime: 1
